@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer MVT Jimena Canseco</title>
+</head>
+<body>
+
+<h1 style="color:blueviolet"> Listado de Familiares</h1>
+<h2 style="color:aquamarine"> La familia Argento esta compuesta por:</h2>
+
+<h4
+        <ul>
+            {% for familiar in Familia_Argento %}
+                <li> {{ familiar }} </li>
+            {% endfor %}
+
+
+
+
+        </ul>
+
+</body>
+
+</html>
